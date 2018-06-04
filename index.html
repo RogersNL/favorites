@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter some of your favorite things!</h1>
+      <form id="Track-Form">
+        <div class="form-group">
+          <label for="User-Name">Name</label>
+          <input id="User-Name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="favorite-1">Favorite Thing 1</label>
+          <input id="favorite-1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="favorite-2">Favorite Thing 2</label>
+          <input id="favorite-2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="favorite-3">Favorite Thing 3</label>
+          <input id="favorite-3" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <h2><span id = "name"></span>, Your Favorite Things Are: </h2>
+      <ul>
+        <li id = "array0"></li>
+        <li id = "array1"></li>
+        <li id = "array2"></li>
+      </ul>
+  </body>
+</html>
